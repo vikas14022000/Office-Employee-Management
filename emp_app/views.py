@@ -76,4 +76,3 @@ def filter_emp(request):
         return render(request, 'filter_emp.html')
     else:
         return HttpResponse('An Excetion O')
- b
